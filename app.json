@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "NovaPay",
+    "slug": "novapay-fintech",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#080B14"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.novapay.fintech"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080B14"
+      },
+      "package": "com.novapay.fintech",
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ]
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-local-authentication",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8e88cb51-39f6-4c9b-8269-099206e1a3c9"
+      }
+    },
+    "owner": "ali2625"
+  }
+}
